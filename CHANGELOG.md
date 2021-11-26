@@ -1,6 +1,17 @@
 See also [https://github.com/stkb/vscode-rewrap/releases](https://github.com/stkb/vscode-rewrap/releases) (for working links to issues)
 
 
+## Unreleased
+- New architecture (still WIP) with performance increase.
+- Markdown: new parser that fixes many small bugs (inc #288), as well as supporting:
+  - Front matter header (#277, #294)
+  - Link reference definitions (#63, #93)
+  - Footnotes (#188)
+- ReStructuredText support (standalone & for Python, almost complete) (#88).
+- Visual Studio: Wrap to rulers generated from .editorconfig by the Editor Guidelines
+  extension (thereby indirectly supporting .editorconfig) (#300).
+
+
 ### 1.15.4
 - Support svelte files (HTML) (#243, #299).
 
